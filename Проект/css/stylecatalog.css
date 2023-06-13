@@ -1,0 +1,129 @@
+.catalog{
+    text-align: center;
+}
+
+.catalog-header{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 64px;
+
+
+    color: #725043;
+
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+.filters{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    max-width: 1170px;
+    margin-left: 115px;
+}
+.filter-item{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+
+    color: #725043;
+}
+select {
+    color: black;       
+    font-size: 16px;    
+    font-weight: 400;   
+    font-family: 'Inter';
+    font-style: normal;
+    background: #FFCC80;
+    border: 2px solid #725043;
+    border-radius: 15px;
+    text-align: center;
+}
+.from-to{
+    margin-right: 5px;
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+
+.profile-item{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1350px;
+    height: 220px;
+    background: #d1d3d3;
+    border: 0px inset black;
+    border-radius: 5px;
+}
+
+.photo-profile{
+    box-sizing: border-box;
+
+    width: 200px;
+    height: 200px;
+    margin: auto 0;
+    margin-left: 50px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    border: 2px solid #FFCC80;
+}
+
+.about{
+    margin: auto 0;
+}
+.name-surname{
+    margin: auto 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+
+    display: flex;
+}
+
+.watch-profile{
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+
+    width: 280px;
+    height: 50px;
+    margin: auto 0;
+    margin-right: 50px;
+
+    background: #FFFFFF;
+    border: 2px solid #FF6A5B;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+.watch-profile:hover{
+    background-color: #c2b3ad;
+}
+.watch-profile-text{
+    margin: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: black;
+}
+
+.estimation{
+    margin: auto 0;
+}
+.img-star{
+    margin: 0 20px;
+}
+.star-row{
+    margin: 30px auto 10px auto;
+}
+.second-row-star{
+    margin: 0px 20px;
+}
